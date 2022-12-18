@@ -1,0 +1,245 @@
+/* Top level window */
+
+QFrame#main-window {
+    background: #242424;
+    border: 0px solid #4F5654;
+    border-radius: 8px;
+    outline: 0;
+}
+
+QPushButton#control-close {
+    background: #FF544D;
+    border-radius: 6px;
+}
+
+QPushButton#control-size {
+    background: #FEB429;
+    border-radius: 6px;
+}
+
+QPushButton#control-minimize {
+    background: #24C138;
+    border-radius: 6px;
+}
+
+QSizeGrip {
+    background: transparent;
+}
+
+QFrame#side-grip {
+    background: transparent;
+}
+
+QToolTip {
+    background: #212423;
+    color: white;
+    font-size: 12px;
+    border: 1px solid #4F5654;
+    padding: 4px;
+}
+
+ToolTip {
+    background: #212423;
+    color: white;
+    font-size: 12px;
+    border: 1px solid #4F5654;
+    border-radius: 4px;
+}
+
+ToolTip QLabel {
+    margin: 8px;
+}
+
+/* Vertical ScrollBar */
+
+QScrollBar:vertical {
+    background: transparent;
+    border: none;
+    width: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: -2px;
+    padding-right: -2px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #E8E8E8;
+    min-height: 50px;
+    margin: 0 5px;
+    border-radius: 6px;
+}
+
+QScrollBar::add-line:vertical {
+    height: 20px;
+    image: url(":/icons/add-page-v.svg");
+}
+
+QScrollBar::sub-line:vertical {
+    height: 20px;
+    image: url(":/icons/sub-page-v.svg");
+}
+
+QScrollBar::add-page:vertical {
+    background: transparent;
+}
+
+QScrollBar::sub-page:vertical {
+    background: transparent;
+}
+
+
+
+QPushButton#generic-button {
+    width: 120px;
+    height: 30px;
+    background: #434343;
+    border: none;
+    border-top: 2px solid #727272;
+    border-radius: 4px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 14px;
+    color: #BEBEBE;
+}
+
+QPushButton#generic-button:hover {
+    border-top: 2px solid #86E9FF;
+    color: #FFFFFF;
+}
+
+
+QPushButton#tab-button {
+    width: 120px;
+    height: 30px;
+    background: #434343;
+    border: none;
+    border-top: 2px solid #727272;
+    border-radius: 4px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 14px;
+    color: #BEBEBE;
+}
+
+QPushButton#tab-button:checked {
+    border-top: 2px solid #86E9FF;
+    color: #FFFFFF;
+}
+
+
+
+DropDownField QLabel{
+    color: #A5A5A5;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+DropDownField QComboBox {
+    padding-top: -2px;
+    padding-left: 8px;
+    background: #434343;
+    border-radius: 8px;
+    border-top: 2px solid #555555;
+    color: #E8E8E8;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+DropDownField QComboBox::drop-down {
+    border: 0;
+}
+
+DropDownField QComboBox::down-arrow {
+    image: url(":/icons/dropdown.svg");
+    width: 16px;
+    height: 16px;
+    padding-right: 16px;
+}
+
+DropDownField QComboBox QAbstractItemView {
+    color: white;
+    background: #434343;
+    border-radius: 4px;
+    margin: 4px;
+    outline: 0;
+}
+
+DropDownField QComboBox QAbstractItemView::item {
+    color: white;
+    background: transparent;
+    border-radius: 4px;
+    margin: 2px;
+    min-height: 25px;
+    padding-left: 4px;
+}
+
+DropDownField QComboBox QAbstractItemView::item:hover {
+    background: #0C8CE9;
+}
+
+QTextEdit {
+    padding: 8px;
+    background: #434343;
+    border-radius: 8px;
+    border-top: 2px solid #555555;
+    color: #E8E8E8;
+    font-family: "Consolas";
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+}
+
+QLabel {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+LineEditField QLabel {
+    color: #A5A5A5;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+LineEditField QLineEdit {
+    padding: 8px;
+    background: #434343;
+    border-radius: 8px;
+    border-top: 2px solid #555555;
+    color: #E8E8E8;
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+}
+
+QCheckBox {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+QCheckBox::indicator {
+    width: 44px;
+    height: 44px;
+    padding-left: 8px;
+}
+
+QCheckBox::indicator:checked {
+    image: url(":/icons/toggled.svg");
+}
+
+QCheckBox::indicator:unchecked {
+    image: url(":/icons/untoggled.svg");
+}
+
+QPushButton#donate-paypal {
+    background: transparent;
+}

@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="font">
+    <file>opensans.ttf</file>
+  </qresource>
+
+  <qresource prefix="style">
+    <file>style.qss</file>
+  </qresource>
+
+  <qresource>
+    <file>icons/about.svg</file>
+    <file>icons/add-page-v.svg</file>
+    <file>icons/dropdown.svg</file>
+    <file>icons/paypal.png</file>
+    <file>icons/sub-page-v.svg</file>
+    <file>icons/toggled.svg</file>
+    <file>icons/untoggled.svg</file>
+    <file>icons/hourglass.ico</file>
+  </qresource>
+</RCC>
