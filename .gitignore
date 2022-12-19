@@ -2,4 +2,5 @@
 /build
 /dist
 /venv
+/pyinstaller/build
 /pyinstaller/dist
