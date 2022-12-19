@@ -8,7 +8,7 @@ from util import shadowify
 class Clock(QtWidgets.QWidget):
     def __init__(self, p=None):
         super().__init__(p)
-        self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowTransparentForInput | Qt.SplashScreen)
+        self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnBottomHint | Qt.WindowTransparentForInput | Qt.SplashScreen)
         self.setAttribute(Qt.WA_TranslucentBackground, True)
         self.setAttribute(Qt.WA_DeleteOnClose, True)
         shadowify(self, radius=0, color=(0, 0, 0, 64))

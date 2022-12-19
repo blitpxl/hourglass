@@ -2,5 +2,4 @@
 /build
 /dist
 /venv
-HourGlass.spec
-HourGlass-Configurator.spec
+/pyinstaller/dist
