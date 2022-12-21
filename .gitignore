@@ -1,6 +1,7 @@
-/.idea
-/build
-/dist
-/venv
-/pyinstaller/build
-/pyinstaller/dist
+.idea
+__pycache__/
+build
+dist
+venv
+pyinstaller/build
+pyinstaller/dist

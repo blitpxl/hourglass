@@ -5,11 +5,13 @@ import subprocess
 subprocess.run("pyrcc5 hourglass/res/res.qrc -o hourglass/res/generated/resources.py")
 
 
+# build hourglass
 build.run(
     [
         "hourglass/hourglass.py",
+        "--noconfirm",
         "--noconsole",
-        "--name=HourGlass",
+        "--name=hourglass",
         "--icon=hourglass.ico",
         "--workpath=pyinstaller/build",
         "--specpath=pyinstaller/spec",
@@ -18,11 +20,13 @@ build.run(
 )
 
 
+# build hourglass-configurator
 build.run(
     [
         "hourglass/hourglass-configurator.py",
+        "--noconfirm",
         "--noconsole",
-        "--name=HourGlass-Configurator",
+        "--name=hourglass-configurator",
         "--icon=hourglass.ico",
         "--uac-admin",
         "--workpath=pyinstaller/build",
